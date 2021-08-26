@@ -5,9 +5,9 @@ import ReactMapGL, {Marker} from 'react-map-gl';
 export default function Mapbox(props) {
   // console.log(props, '----------features');
   const [viewport, setViewport] = React.useState({
-    longitude: -122.45,
-    latitude: 37.78,
-    zoom: 14
+    longitude: -89.59940914585667,
+    latitude: 48.01027395282483,
+    zoom: 1
   });
  
   // Only rerender markers if props.data has changed
